@@ -1,0 +1,49 @@
+/* Estilo del fondo del cuerpo */
+body {
+    background-color: #3d3d3d;
+    font-size: 18px;
+}
+
+/* Estilo del título h2 */
+h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 50px; /* Tamaño de fuente grande */
+    color: red; /* Color de fuente rojo */
+}
+
+/* Estilo del formulario con el ID "loginForm" */
+#loginForm {
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 50px; /* Relleno interior del formulario */
+    background-color: #999999; /* Color de fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+/* Estilo de los campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Ancho completo de los campos de entrada */
+    padding: 10px; /* Relleno interior de los campos de entrada */
+    margin: 10px 0; /* Margen vertical entre los campos */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Estilo del botón con el ID "boton" */
+#boton {
+    width: 100%; /* Ancho completo del botón */
+    padding: 15px; /* Relleno interior del botón */
+    background-color: #ff1111; /* Color de fondo rojo */
+    color: #fff; /* Color de fuente blanco */
+    font-size: 20px; /* Tamaño de fuente grande */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo del botón al pasar el mouse por encima */
+#boton:hover {
+    background-color: #a41b1b; /* Cambio de color al pasar el mouse sobre el botón */
+}
+
